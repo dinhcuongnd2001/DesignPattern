@@ -1,0 +1,14 @@
+Sự khá nhau giữa If-Else và Switch-Case
++) Tốc độ của Switch-Case sẽ nhanh hơn If-Else
++) khi nào dùng if-else và switch-case.
+    tốc độ chỉ chênh lệch khi số lượng điều kiện lớn bởi vì do thằng if-else nó sẽ xử lý logic theo ràng buộc, điều kiện này phụ thuộc vào
+    điều kiện trên, còn switch-case sẽ hoạt động đồng bộ, chia theo các nhánh để kiểm tra, do đó tốc độ nhanh hơn.
+    - Dùng If-else trong các trường hợp số lượng điều kiện nhỏ, switch-case trong trường hợp số lượng điều kiện lớn.
++) các cách xử lý khác ngoài switch-case
+
+new Map khác Object ở cách tổ chức lưu trữ, Object thì lưu trữ theo dạng key-value, còn Map thì lưu theo từng cụm, mỗi cụm là key và 1 value
+=> khi tìm kiếm thì Map sẽ cho tốc độ tìm kiếm nhanh hơn
++) Sử dụng map như 1 object thì có được (qua phương thức get())
++) Sử dụng Obejct như map thì ko được 
+
+++ ) SOLID: Tìm hiểu về solid
